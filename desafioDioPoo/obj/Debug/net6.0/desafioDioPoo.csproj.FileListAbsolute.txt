@@ -1,0 +1,15 @@
+C:\git\desafioDioPoo\obj\Debug\net6.0\desafioDioPoo.csproj.AssemblyReference.cache
+C:\git\desafioDioPoo\obj\Debug\net6.0\desafioDioPoo.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\desafioDioPoo\obj\Debug\net6.0\desafioDioPoo.AssemblyInfoInputs.cache
+C:\git\desafioDioPoo\obj\Debug\net6.0\desafioDioPoo.AssemblyInfo.cs
+C:\git\desafioDioPoo\obj\Debug\net6.0\desafioDioPoo.csproj.CoreCompileInputs.cache
+C:\git\desafioDioPoo\bin\Debug\net6.0\desafioDioPoo.exe
+C:\git\desafioDioPoo\bin\Debug\net6.0\desafioDioPoo.deps.json
+C:\git\desafioDioPoo\bin\Debug\net6.0\desafioDioPoo.runtimeconfig.json
+C:\git\desafioDioPoo\bin\Debug\net6.0\desafioDioPoo.dll
+C:\git\desafioDioPoo\bin\Debug\net6.0\desafioDioPoo.pdb
+C:\git\desafioDioPoo\obj\Debug\net6.0\desafioDioPoo.dll
+C:\git\desafioDioPoo\obj\Debug\net6.0\refint\desafioDioPoo.dll
+C:\git\desafioDioPoo\obj\Debug\net6.0\desafioDioPoo.pdb
+C:\git\desafioDioPoo\obj\Debug\net6.0\desafioDioPoo.genruntimeconfig.cache
+C:\git\desafioDioPoo\obj\Debug\net6.0\ref\desafioDioPoo.dll
