@@ -1,48 +1,54 @@
-//Contagem de CÃ©dulas
+//Contagem de Cédulas
 
 /*
-FaÃ§a a leitura de um valor inteiro. Em seguida, calcule o menor nÃºmero de notas possÃ­veis (cÃ©dulas)
-onde o valor pode ser decomposto. As notas que vocÃª deve considerar sÃ£o de 100, 50, 20, 10, 5, 2 e 1. 
-Na sequÃªncia mostre o valor lido e a relaÃ§Ã£o de notas necessÃ¡rias.
+Faça a leitura de um valor inteiro. Em seguida, calcule o menor número de notas possíveis (cédulas)
+onde o valor pode ser decomposto. As notas que você deve considerar são de 100, 50, 20, 10, 5, 2 e 1. 
+Na sequência mostre o valor lido e a relação de notas necessárias.
 
 Entrada
-VocÃª receberÃ¡ um valor inteiro N (0 < N < 1000000).
+Você receberá um valor inteiro N (0 < N < 1000000).
 
-SaÃ­da
-Exiba o valor lido e a quantidade mÃ­nima de notas de cada tipo necessÃ¡rias, seguindo o exemplo de saÃ­da abaixo. 
-ApÃ³s cada linha deve ser imprimido o fim de linha.
+Saída
+Exiba o valor lido e a quantidade mínima de notas de cada tipo necessárias, seguindo o exemplo de saída abaixo. 
+Após cada linha deve ser imprimido o fim de linha.
 */
 
 using System;
 
 namespace DIO
 {
-    class Program
+  class Program
+  {
+	static void Main(string[] args)
     {
-        static void Main(String[] args)
+		string valorEntrada = Console.ReadLine();
+		int valor = int.Parse(valorEntrada);
+		CalculaValorApagar(valor);
+	}
+		public static void CalculaValorApagar(int valorPagar)
+		{
+        int apagar;
+        int[] notas = new int[] { 100, 50, 20, 10, 5, 2, 1 };
+        int[] totalNotas = new int[7];
+
+
+        for (int v = 0; v < 1; v++)
         {
-            int[] valorpagar = new int[] {89, 1850 };
-            int apagar;
-            int[] notas = new int[] { 100, 50, 20, 10, 5, 2, 1 };
-            int[] totalNotas = new int[7];
+			System.Console.WriteLine(valorPagar);
 
-            for (int v = 0; v < valorpagar.Length v++)
+            apagar = valorPagar;
+
+            for (int i = 0; i < 7; i++)
             {
-                System.Console.WriteLine(valorpagar[v]);
-                
-                apagar = valorpagar[v];
-
-                for (int i = 0; i < 7; i++)
+                if (apagar >= notas[i])
                 {
-                    if (apagar >= notas[i])
-                    {
-                        totalNotas[i] = apagar / notas[i];
-                        apagar = apagar - totalNotas[i] * notas[i];
-                    }
-                    System.Console.WriteLine(totalNotas[i] + " nota(s) de R$ " + notas[i] + ",00");
+                    totalNotas[i] = apagar / notas[i];
+                    apagar = apagar - totalNotas[i] * notas[i];
                 }
+                    System.Console.WriteLine(totalNotas[i] + " nota(s) de R$ " + notas[i] + ",00");
+            }
                 Array.Clear(totalNotas, 0, totalNotas.Length);
-            } 
+            }
         }
-    }
+	}
 }
